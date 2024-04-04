@@ -155,10 +155,8 @@ namespace PixelGunCheat
                 Renderer.InitMat();
                 _initMat = true;
             }
-            Renderer.DrawString(new Vector2(26, 26), "PixelGunCheat :3", Color.black, false);
-            Renderer.DrawString(new Vector2(25, 25), "PixelGunCheat :3", Color.cyan, false);
-            Renderer.DrawString(new Vector2(26, 101), "github.com/stanuwu", Color.black, false);
-            Renderer.DrawString(new Vector2(25, 100), "github.com/stanuwu", Color.cyan, false);
+            Renderer.DrawString(new Vector2(26, 26), "Harryware", Color.black, false);
+            Renderer.DrawString(new Vector2(25, 25), "Harryware", Color.cyan, false);
             if (gameController == null) return;
             Camera main = Camera.main;
             if (main == null) return;
